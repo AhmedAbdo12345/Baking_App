@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="30dp"
+    android:id="@+id/stepsPageID">
+   <Button
+        android:id="@+id/vedio_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="vedio"/>
+
+    <TextView
+        android:id="@+id/Steps_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Steps_id"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        android:textDirection="ltr"/>
+    <TextView
+        android:id="@+id/Steps_Description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Steps_Description"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/Steps_shortDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Steps_shortDescription"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"/>
+ <!--   <TextView
+        android:id="@+id/Steps_vedio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Steps_vedio"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"/>-->
+    <TextView
+        android:id="@+id/Steps_ThumbnailURL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Steps_ThumbnailURL"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"/>
+
+
+</LinearLayout>
